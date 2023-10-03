@@ -10,9 +10,9 @@ public class PemilihanPercobaan307 {
         System.out.print("Masukkan angka pertama : ");
         angka1 = input07.nextDouble();
         System.out.print("Masukkan angka kedua: ");
-        angka2 = input08.nextDouble();
+        angka2 = input07.nextDouble();
         System.out.print("Masukkan operator: ");
-        operator = input08.next().charAt(0);
+        operator = input07.next().charAt(0);
 
         switch (operator) {
             case '+':

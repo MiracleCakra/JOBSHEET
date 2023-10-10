@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class ModifForKelipatan07 {
-    public static void main (String [] args ){
+public class WhileKelipatan07 {
+    public static void main (String[] args ) {
         Scanner scan = new Scanner(System.in); 
 
         int kelipatan, total = 0, counter = 0; 
@@ -9,10 +9,13 @@ public class ModifForKelipatan07 {
 
         System.out.print("Masukkan bilangan kelipatan (1-9) : "); 
         kelipatan = scan.nextInt(); 
-        for (int i = 1; i <=50; i++) { 
+        
+        int i = 1;
+        while (i <= 50) { 
+            i++;
             if (i % kelipatan == 0) { 
                 total += i; 
-                counter++;  
+                counter++;
                 rata = total / counter;
             }
         }
@@ -23,3 +26,4 @@ public class ModifForKelipatan07 {
 
             }  
 }
+

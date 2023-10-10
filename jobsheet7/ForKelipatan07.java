@@ -11,7 +11,9 @@ import java.util.Scanner;
         for (int i = 1; i <=50; i++) { 
             if (i % kelipatan == 0) { 
                 total += i; 
-                counter++; } } 
+                counter++;
+             }
+                 } 
 
 
         System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", kelipatan, counter); 

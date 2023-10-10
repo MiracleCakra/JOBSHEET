@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ModifForKelipatan07 {
-    public class void main (String [] args ){
+    public static void main (String [] args ){
         Scanner scan = new Scanner(System.in); 
 
         int kelipatan, total = 0, counter = 0; 

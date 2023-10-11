@@ -7,7 +7,7 @@ public class DoWhileCuti07 {
         int jatahCuti, jumlahHari;
         String konfirmasi;
 
-        System.out.print("jatah cuti : ");
+        System.out.print("Jatah cuti : ");
         jatahCuti = scan.nextInt();
 
         do{
@@ -23,11 +23,17 @@ public class DoWhileCuti07 {
                     System.out.println("Sisa jatah cuti : " + jatahCuti);
                 } else {
                     System.out.println("Sisa jatah cuti Anda tidak mencukupi");
-                    break;
+                
 
                 }
+            } else if (konfirmasi.equalsIgnoreCase("t")) {
+                break;
+            } else {
+                System.out.println("Input yang anda masukkan salah, coba Lagi!");
             }
         }   while (jatahCuti > 0);
+
+        scan.close();
     }
     
 }

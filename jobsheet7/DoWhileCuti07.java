@@ -27,9 +27,9 @@ public class DoWhileCuti07 {
 
                 }
             } else if (konfirmasi.equalsIgnoreCase("t")) {
-                break;
-            } else {
-                System.out.println("Input yang anda masukkan salah, coba Lagi!");
+                
+            
+               
             }
         }   while (jatahCuti > 0);
 

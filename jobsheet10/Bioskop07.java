@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Bioskop07 {
     public static void main(String[] args) {
-        Scanner inputScanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
    String [][] penonton = new String[4][2];
 

@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-
 public class Bioskop07 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner inputScanner = new Scanner(System.in);
 
    String [][] penonton = new String[4][2];
 
@@ -34,4 +33,3 @@ public class Bioskop07 {
 
     }
 }
-

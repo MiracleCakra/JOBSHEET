@@ -16,9 +16,9 @@ public class Quiz07 {
                 int answer = input.nextInt();
                 input.nextLine();
 
-                if (answer < number){
+                if (number < answer){
                     System.out.println("Tebakan anda terlalu rendah");
-                } else if (answer > number){
+                } else if (number > answer){
                     System.out.println("Tebakan anda terlalu tinggi");
                 } else {
                     success = true;

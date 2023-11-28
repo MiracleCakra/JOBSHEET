@@ -30,7 +30,5 @@ public class DeretDescendingRekursif07 {
         System.out.println("Output iteratif : ");
         printDescendingIteratif(angka);
     }
-
-
 }
 

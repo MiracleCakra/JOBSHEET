@@ -20,7 +20,8 @@ public class Percobaan207 {
         System.out.print("Hasil perhitungan pangkat: ");
         for (int i = 1; i <= pangkat; i++) {
             if (i == pangkat) {
-                System.out.print(bilangan);
+                System.out.print(bilangan + " x ");
+                System.out.print("1");
             } else {
                 System.out.print(bilangan + " x ");
             }

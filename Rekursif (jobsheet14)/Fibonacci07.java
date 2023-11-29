@@ -1,19 +1,20 @@
 import java.util.Scanner;
 
 public class Fibonacci07 {
-
-    //Fungsi Rekursif untuk menghitung jumlah pasangan marmut 
-    public static int hitungMarmut (int bulan) {
-        if (bulan <= 2) {
+    public static int jumlahPasanganMarmut(int bulan) {
+        if (bulan <= 0) {
+            return 0;
+        } else if (bulan == 1 || bulan == 2) {
             return 1;
         } else {
-            return hitungMarmut(bulan-1) + hitungMarmut(bulan-2);
-        } 
+            return jumlahPasanganMarmut(bulan - 1) + jumlahPasanganMarmut(bulan - 2);
+        }
     }
 
     public static void main(String[] args) {
-        int bulan = 12;
-        int jumlahMarmut = hitungMarmut(bulan);
-        System.out.println("Jumlah pasangan marmut pada akhir bulan ke-" + bulan + " adalah " + jumlahMarmut);
+        for (int i = 1; i <= 12; i++) {
+            int jumlahPasangan = jumlahPasanganMarmut(i);
+            System.out.println("Jumlah pasangan marmut pada bulan ke-" + i + ": " + jumlahPasangan);
+        }
     }
 }
